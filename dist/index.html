@@ -1,0 +1,99 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankist</title>
+    <link rel="stylesheet" href="/bank_last_vers.3a01df49.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/icon.b1b2fa1c.png">
+</head>
+
+<body>
+    <div class="starter-menu  ">
+        <p class="login-welcome">Log in to get started</p>
+        <img class="logo-login" src="/logo.3eb009db.png" alt="bankist-logo">
+        <form class="login-form">
+            <div class="left">
+                <input class="user-input" type="text" placeholder="USER">
+                <input class="pin-input" type="password" placeholder="PIN" maxlength="4">
+            </div>
+            <div class="right">
+                <button class="submit-input">→</button>
+            </div>
+        </form>
+        <p class="login-error hidden-class"></p>
+    </div>
+    <main class="main-app hidden-class">
+        <div class="header">
+            <header class="header-app">
+                <p class="welcome-mess">Good Afternoon,</p>
+                <img class="logo-app" src="/logo.3eb009db.png" alt="bankist-logo">
+                <p class="logout">Log Out</p>
+            </header>
+        </div>
+        <div class="app">
+            <div class="section">
+                <div class="top-layer">
+                    <div class="left-balance">
+                        <p class="balance">Current balance</p>
+                        <span class="date-balance">Date</span>
+                    </div>
+                    <p class="money-balance">232232</p>
+                </div>
+                <div class="grid-cards">
+                    <div class="left-card">
+                        <p class="sort">↓SORT</p>
+                        <!--aici vor fi construite cards din JS-->
+                        <div class="scrollable-content">
+
+                        </div>
+                    </div>
+
+                    <div class="transfer">
+                        <p class="transfer-m">Transfer money</p>
+                        <form class="transfer-form">
+                            <input class="transfer-input" type="text" placeholder="Transfer to">
+                            <input class="amount-input" type="text" placeholder="Amount">
+                            <button type="submit" class="button-transfer">→</button>
+                        </form>
+                        <p class="wrong-cred hidden-class"></p>
+                    </div>
+                    <div class="loan">
+                        <p class="loan-m">Request loan</p>
+                        <form class="loan-form">
+                            <input class="amount-input-loan" type="text" placeholder="Amount">
+                            <button type="submit" class="button-loan">→</button>
+                        </form>
+                        <button class="pay-loan">Pay Loan</button>
+                        <p class="wrong-cred-loan hidden-class"></p>
+                    </div>
+                    <div class="close-acc">
+                        <p class="close-m">Close account</p>
+                        <form class="close-form">
+                            <input class="close-confirm" type="text" placeholder="Confirm user">
+                            <input class="close-pin" type="password" maxlength="4" placeholder="Confirm pin">
+                            <button type="submit" class="button-close">→</button>
+                        </form>
+                        <button class="confirm-close hidden-class">CONFIRM</button>
+                        <p class="wrong-cred-close hidden-class"></p>
+
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <div class="left-footer">
+                        <p class="in">IN <span class="in-span"></span></p>
+                        <p class="out">OUT <span class="out-span"></span></p>
+                        <p class="loan-fot">LOANS <span class="loan-span"></span></p>
+                        <p class="interest">INTEREST<span class="interest-span"></span></p>
+                    </div>
+                    <div class="right-footer">
+                        You will be logged out in: <span class="timer">10:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="/bank_last_vers.c36f364e.js"></script>
+
+<script src="/bank_last_vers.3464ddca.js"></script></body></html>
