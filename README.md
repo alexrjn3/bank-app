@@ -11,6 +11,7 @@ This project was originally developed as part of a JavaScript Udemy course, but 
 - Made the entire application responsive for mobile devices.
 
 Accounts for testing:
+
 User:Alex
 Pass:2222
 
