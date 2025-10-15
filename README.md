@@ -1,23 +1,16 @@
-Aplicația este un sistem bancar interactiv dezvoltat în JavaScript, care permite gestionarea conturilor multiple, efectuarea de transferuri, solicitarea și rambursarea împrumuturilor, precum și vizualizarea tranzacțiilor în timp real.
-Utilizatorii se pot autentifica folosind un nume de utilizator și un cod PIN, având acces la un panou personalizat care afișează soldul, istoricul tranzacțiilor și informațiile financiare actualizate.
+The application is an interactive banking system developed in JavaScript, allowing users to manage multiple accounts, make transfers, request and repay loans, and view real-time transactions.
+Users can log in using a username and PIN, gaining access to a personalized dashboard that displays their balance, transaction history, and updated financial information.
 
-Aplicatia a fost realizata in cadrul unui curs Javascript Udemy. Am adus in plus fata de curs:
+This project was originally developed as part of a JavaScript Udemy course, but I implemented several additional features beyond the course material:
+- Created a custom user system (person1, person2, person3) with extended fields such as transfer_premium, available_loan, loans, and more.
+- Added a transfer limit for non-premium users (maximum €3000).
+- Implemented a complete loan system, including loan requests, repayments, interest calculation, and a dropdown for selecting loan types.
+- Introduced an automatic 10-minute logout timer for enhanced security.
+- Designed a visual transaction history, featuring colored cards, operation types, dates, and formatted amounts.
+- Implemented account closure with confirmation, requiring user/PIN verification and actual account deletion.
+- Made the entire application responsive for mobile devices.
 
-Am creat un sistem propriu de utilizatori (person1, person2, person3) cu câmpuri extinse precum transfer_premium, available_loan, loans etc.
-
-Am adăugat o limită de transfer pentru utilizatorii non-premium (maxim 3000€).
-
-Am implementat un sistem complet de împrumuturi, cu cerere, rambursare, dobândă și dropdown pentru alegerea împrumutului.
-
-Am introdus un cronometru automat de 10 minute care deloghează utilizatorul la expirare.
-
-Am creat un istoric vizual al tranzacțiilor (carduri colorate, tipuri de operații, date, sume formatate).
-
-Am implementat închiderea contului cu confirmare (verificare user/pin și ștergere efectivă a contului).
-
-Realizat responsive pentru mobile.
-
-Conturi pentru testat app:
+Accounts for testing:
 User:Alex
 Pass:2222
 
